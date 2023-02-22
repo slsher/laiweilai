@@ -34,3 +34,10 @@ CREATE TABLE `short_link`  (
 ```
 
 
+
+测试链接：http://localhost:9090/share.do?longLink=https://github.com/slsher/laiweilai/tree/main/short_link
+
+结果：
+```json
+{"status":true,"message":null,"data":{"id":8,"shorts":"r9ux2iBX","shortLink":"http://localhost:9090/short/r9ux2iBX","longLink":"https://github.com/slsher/laiweilai/tree/main/short_link","createTime":"2023-02-22T22:55:40.74","flag":0},"count":null}
+```
